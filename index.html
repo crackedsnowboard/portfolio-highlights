@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Do we add or change the content= above to help fix the max display? -->
+    <link rel="stylesheet" href="script.js">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -17,15 +18,15 @@
 
     <!-- Card layout using the grid system and float -->
     <main>
-        <div class="jumbotron jumbotron-fluid bg-info pb-2">
+        <div class="jumbotron jumbotron-fluid bg-info pb-2 pt-4">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
 
-                        <h1 class="display-4">Joel Mathen</h1>
+                        <h1 class="display-4 font-weight-bold pt-n1">Joel Mathen</h1>
                     </div>
-                    <div class="col-sm-8">
-                        <ul class="pb-1">
+                    <div class="col-sm-8 pb-n3">
+                        <ul class="pb-n3 pt-2">
                             <li class="lead ml-3">Lifelong learner currently studying full-stack web development</li>
                             <li class="lead ml-3">Previous experience conducting cybersecurity assessments</li>
                             <li class="lead ml-3">Ex-CPA that brings a business lens to all projects</li>
@@ -51,39 +52,59 @@
 
             </div>
         </div>
-        
+
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card">
-                        <img src="./assets/uDecide.png" class="card-img-top" alt="picture of input for address">
+                    <div class="card border-secondary">
+                        <div class="card-header text-center">
+                            Udecide
+                        </div>
+
+                        <img src="./assets/uDecide.png" class="card-img-top img-thumbnail"
+                            alt="picture of input for address">
                         <div class="card-body">
-                            <h5 class="card-title">Udecide</h5>
+
                             <p class="card-text">Helping voter identify their current Federal representatives</p>
-                            <a href="https://crackedsnowboard.github.io/uDecide" class="btn btn-info ml-2">Website</a><a
-                                href="https://github.com/crackedsnowboard/uDecide" class="btn btn-info ml-5">Repo</a>
+                            <a href="https://crackedsnowboard.github.io/uDecide" class="btn btn-info ml-2">Website</a>
+                            <a href="https://github.com/crackedsnowboard/uDecide" class="btn btn-info ml-5">Repo</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card border-secondary">
+                        <div class="card-header text-center">
+                            Weather API
+                        </div>
+                        
+                            <img src="./assets/weather.png" class="card-img-top img-thumbnail"
+                                alt="screenshot of 5 day weather display">
+                       
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-info">Go somewhere</a>
+
+                            <p class="card-text">Consumed open APIs to deliver a 5 day forecast</p>
+                            <a href="https://crackedsnowboard.github.io/weather-dashboard/"
+                                class="btn btn-info">Website</a>
+                            <a href="https://github.com/crackedsnowboard/weather-dashboard"
+                                class="btn btn-info ml-5">Repo</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card border-secondary">
+                        <div class="card-header text-center">
+                            Planner
+                        </div>
+
+                        <img src="./assets/planner.png" class="card-img-top img-thumbnail"
+                            alt="display of day planner with hours as rows">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-info">Go somewhere</a>
+
+                            <p class="card-text">Used jQuery to dynamically render elements on the website</p>
+                            <a href="https://crackedsnowboard.github.io/work-day-scheduler/"
+                                class="btn btn-info">Website</a>
+                            <a href="https://github.com/crackedsnowboard/work-day-scheduler"
+                                class="btn btn-info ml-5">Repo</a>
                         </div>
                     </div>
                 </div>
