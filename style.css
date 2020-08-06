@@ -12,7 +12,7 @@
 }
 
 .saul {
-    padding-right: 30%;
+    display: flexbox;
 }
 
 .fred {
