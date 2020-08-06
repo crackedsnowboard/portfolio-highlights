@@ -4,3 +4,21 @@
     max-height: 230px;
     object-fit: cover;
 }
+
+.mary {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.saul {
+    padding-right: 30%;
+}
+
+.fred {
+    border: dashed red;
+}
+
+.paul {
+    align-items: center;
+}
