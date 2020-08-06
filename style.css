@@ -8,11 +8,10 @@
 .mary {
     display: flex;
     justify-content: center;
-    
 }
 
 .saul {
-    display: flexbox;
+    display: flex;
 }
 
 .fred {
